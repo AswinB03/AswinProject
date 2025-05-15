@@ -3,7 +3,7 @@ import numpy as np
 import joblib
 
 # Load model
-model = joblib.load('air_quality_model.pkl')
+model = joblib.load('air_quality_data.csv')
 
 # Streamlit App UI
 st.set_page_config(page_title="Air Quality Predictor", layout="centered")
